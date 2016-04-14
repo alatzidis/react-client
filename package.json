@@ -1,0 +1,29 @@
+{
+  "name": "react-client",
+  "version": "1.0.0",
+  "description": "A simple react client codebase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alatzidis/react-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alatzidis/react-client/issues"
+  },
+  "homepage": "https://github.com/alatzidis/react-client#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.1.1",
+    "webpack": "^1.12.15"
+  }
+}
